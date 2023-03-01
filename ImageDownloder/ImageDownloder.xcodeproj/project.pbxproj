@@ -9,13 +9,16 @@
 /* Begin PBXBuildFile section */
 		7447862E29AF1A0E00639E7D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7447862D29AF1A0E00639E7D /* AppDelegate.swift */; };
 		7447863029AF1A0E00639E7D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7447862F29AF1A0E00639E7D /* SceneDelegate.swift */; };
-		7447863229AF1A0E00639E7D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7447863129AF1A0E00639E7D /* ViewController.swift */; };
+		7447863229AF1A0E00639E7D /* ImageDownloadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7447863129AF1A0E00639E7D /* ImageDownloadViewController.swift */; };
 		7447863529AF1A0E00639E7D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7447863329AF1A0E00639E7D /* Main.storyboard */; };
 		7447863729AF1A1100639E7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7447863629AF1A1100639E7D /* Assets.xcassets */; };
 		7447863A29AF1A1100639E7D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7447863829AF1A1100639E7D /* LaunchScreen.storyboard */; };
 		7447864529AF1A1200639E7D /* ImageDownloderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7447864429AF1A1200639E7D /* ImageDownloderTests.swift */; };
 		7447864F29AF1A1200639E7D /* ImageDownloderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7447864E29AF1A1200639E7D /* ImageDownloderUITests.swift */; };
 		7447865129AF1A1200639E7D /* ImageDownloderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7447865029AF1A1200639E7D /* ImageDownloderUITestsLaunchTests.swift */; };
+		7447866C29AF34CF00639E7D /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 7447866B29AF34CF00639E7D /* Kingfisher */; };
+		7447866E29AF434A00639E7D /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7447866D29AF434A00639E7D /* ImageView.swift */; };
+		7447867029AF510900639E7D /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7447866F29AF510900639E7D /* Images.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +42,7 @@
 		7447862A29AF1A0E00639E7D /* ImageDownloder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageDownloder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7447862D29AF1A0E00639E7D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7447862F29AF1A0E00639E7D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7447863129AF1A0E00639E7D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7447863129AF1A0E00639E7D /* ImageDownloadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDownloadViewController.swift; sourceTree = "<group>"; };
 		7447863429AF1A0E00639E7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7447863629AF1A1100639E7D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7447863929AF1A1100639E7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +52,8 @@
 		7447864A29AF1A1200639E7D /* ImageDownloderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageDownloderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7447864E29AF1A1200639E7D /* ImageDownloderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDownloderUITests.swift; sourceTree = "<group>"; };
 		7447865029AF1A1200639E7D /* ImageDownloderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDownloderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7447866D29AF434A00639E7D /* ImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
+		7447866F29AF510900639E7D /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7447866C29AF34CF00639E7D /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +89,7 @@
 				7447864329AF1A1200639E7D /* ImageDownloderTests */,
 				7447864D29AF1A1200639E7D /* ImageDownloderUITests */,
 				7447862B29AF1A0E00639E7D /* Products */,
+				7447866A29AF34CF00639E7D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,7 +108,9 @@
 			children = (
 				7447862D29AF1A0E00639E7D /* AppDelegate.swift */,
 				7447862F29AF1A0E00639E7D /* SceneDelegate.swift */,
-				7447863129AF1A0E00639E7D /* ViewController.swift */,
+				7447863129AF1A0E00639E7D /* ImageDownloadViewController.swift */,
+				7447866D29AF434A00639E7D /* ImageView.swift */,
+				7447866F29AF510900639E7D /* Images.swift */,
 				7447863329AF1A0E00639E7D /* Main.storyboard */,
 				7447863629AF1A1100639E7D /* Assets.xcassets */,
 				7447863829AF1A1100639E7D /* LaunchScreen.storyboard */,
@@ -127,6 +136,13 @@
 			path = ImageDownloderUITests;
 			sourceTree = "<group>";
 		};
+		7447866A29AF34CF00639E7D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +159,9 @@
 			dependencies = (
 			);
 			name = ImageDownloder;
+			packageProductDependencies = (
+				7447866B29AF34CF00639E7D /* Kingfisher */,
+			);
 			productName = ImageDownloder;
 			productReference = 7447862A29AF1A0E00639E7D /* ImageDownloder.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +234,9 @@
 				Base,
 			);
 			mainGroup = 7447862129AF1A0E00639E7D;
+			packageReferences = (
+				7447866529AF29B300639E7D /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = 7447862B29AF1A0E00639E7D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -258,7 +280,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7447863229AF1A0E00639E7D /* ViewController.swift in Sources */,
+				7447866E29AF434A00639E7D /* ImageView.swift in Sources */,
+				7447863229AF1A0E00639E7D /* ImageDownloadViewController.swift in Sources */,
+				7447867029AF510900639E7D /* Images.swift in Sources */,
 				7447862E29AF1A0E00639E7D /* AppDelegate.swift in Sources */,
 				7447863029AF1A0E00639E7D /* SceneDelegate.swift in Sources */,
 			);
@@ -596,6 +620,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7447866529AF29B300639E7D /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7447866B29AF34CF00639E7D /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7447866529AF29B300639E7D /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 7447862229AF1A0E00639E7D /* Project object */;
 }
